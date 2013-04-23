@@ -1,0 +1,18 @@
+{
+  "name": "zensockets",
+  "version": "0.0.1-45",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "0.29.x",
+    "socket.io": "0.9",
+    "zencoder": "0.0.3"
+  },
+  "subdomain": "zensockets",
+  "engines": {
+    "node": "0.8.x"
+  }
+}

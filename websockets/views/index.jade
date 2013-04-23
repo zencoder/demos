@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+
+  .input-prepend.input-append
+    span.add-on
+      i.icon-film
+    input(type='text', value='s3://zencodertesting/test.mov', placeholder='my input file', class='span5', id='input-file')
+    a(type='submit', class='btn btn-success', id='start') Encode!
+
+  .row
+    .span12
+      #notifications
+
+      #outputs

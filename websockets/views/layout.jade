@@ -1,0 +1,20 @@
+// Set the doctype to HTML5
+doctype 5
+html
+  head
+    title= title
+    link(href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css', rel='stylesheet')
+    link(href='//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css', rel='stylesheet')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='http://code.jquery.com/jquery.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/script.js')
+
+    // Video.JS Requirements
+    link(href='http://vjs.zencdn.net/c/video-js.css', rel='stylesheet')
+    script(src='http://vjs.zencdn.net/c/video.js')
+
+    block header
+  body
+    .container
+      block content
